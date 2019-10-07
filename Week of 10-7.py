@@ -5,3 +5,6 @@ y = "Those who know %s and those who know %s" % (binary, doNot)
 
 print(x)
 print(y)
+
+print("I said: %r.:" % x)
+print("I also said: '%s'." % y)
