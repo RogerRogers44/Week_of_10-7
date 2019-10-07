@@ -8,3 +8,12 @@ print(y)
 
 print("I said: %r.:" % x)
 print("I also said: '%s'." % y)
+
+hilarious = True
+jokeEvaluation = "Isn't that joke so funny?! %r"
+
+print(jokeEvaluation % hilarious)
+w = "This is the left side of..."
+e = "a string with a right side."
+
+print(w+e)
