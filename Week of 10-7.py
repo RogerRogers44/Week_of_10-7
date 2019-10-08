@@ -74,3 +74,21 @@ print(tabbyCat)
 print(persianCat)
 print(backslashCat)
 print(topCat)
+
+print("This is my test, there are others like \' it but this one is mine.")
+# Escape Sequence              What it does?
+# \\                           Creates a backslash
+# \'                           Creates a '
+# \"                           Creates a "
+# \a
+# \b
+# \f
+# \n
+# \N{name}
+# \r
+# \t
+# \uxxx
+# \Uxxxxxxx
+# \v
+# \ooo
+# \xhh
