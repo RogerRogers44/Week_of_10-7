@@ -44,3 +44,33 @@ print(formatter % (1, 2, 3, 4))
 print(formatter % ("one", "two", "three", "four"))
 print(formatter % (True, False, False, True))
 print(formatter % (formatter, formatter, formatter, formatter))
+
+days = "1, 2, 3, 4, 5..."
+months = "\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+
+print("Here are the days: ", days)
+print("Here are the months: ", months)
+
+print("""
+There's something going on here.
+Withe the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5, or 6.
+""")
+
+# r formatter keeps the \n
+
+# escape sequences
+tabbyCat = "\tI'm tabbed in"
+persianCat = "I'm split\non a line"
+backslashCat = "I'm \\ a \\ cat"
+topCat = """
+I'll do a list:
+\t* Cat food
+\t* Fishies
+\t* Catnip\n\t*Grass
+"""
+print(tabbyCat)
+print(persianCat)
+print(backslashCat)
+print(topCat)
