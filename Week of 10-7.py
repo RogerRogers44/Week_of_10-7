@@ -75,20 +75,34 @@ print(persianCat)
 print(backslashCat)
 print(topCat)
 
-print("This is my test, there are others like \' it but this one is mine.")
+print("This is my test, there are others like it but this one is mine.")
+print("This is my test, there are others \' like it but this one is mine.")
+print("This is my test, there are others \" like it but this one is mine.")
+print("This is my test, there are others \a like it but this one is mine.")
+print("This is my test, there are others \b like it but this one is mine.")
+print("This is my test, there are others \f like it but this one is mine.")
+print("This is my test, there are others \n like it but this one is mine.")
+print("This is my test, there are others like it but this one is mine.")
+print("This is my test, there are others \r like it but this one is mine.")
+print("This is my test, there are others \t like it but this one is mine.")
+print("This is my test, there are others like it but this one is mine.")
+print("This is my test, there are others like it but this one is mine.")
+print("This is my test, there are others \v like it but this one is mine.")
+print("This is my test, there are others like it but this one is mine.")
+print("This is my test, there are others like it but this one is mine.")
 # Escape Sequence              What it does?
 # \\                           Creates a backslash
 # \'                           Creates a '
 # \"                           Creates a "
-# \a
-# \b
+# \a                           Creates a ?
+# \b                           Creates a
 # \f
 # \n
 # \N{name}
 # \r
-# \t
-# \uxxx
-# \Uxxxxxxx
+# \t                           Creates a tab space
+# \uxxx                        Doesn't work
+# \Uxxxxxxx                    Doesn't work
 # \v
-# \ooo
-# \xhh
+# \ooo                         Doesn't work
+# \xhh                         Doesn't work
