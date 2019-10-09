@@ -114,4 +114,13 @@ print("This is my test, there are others like it but this one is mine.")
 age = input("How old are you?")
 height = input("How tall are you?")
 
-print("So, you are %r tall and %r tall." % (age, height))
+print("So, you are %r years old and %r tall." % (age, height))
+
+name = input("WHAT IS YOUR TITLE?")
+print("YOUR NAME IS %s, A WORTHY NAME FOR OUR CHAMPION!" % name)
+
+variable1 = input("What does the fox say?")
+print("So the fox says %s." % variable1)
+
+existential_crisis = input("What is the meaning of life?")
+print("%s How wise..." % existential_crisis)
