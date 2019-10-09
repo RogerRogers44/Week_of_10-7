@@ -95,9 +95,9 @@ print("This is my test, there are others like it but this one is mine.")
 # \'                           Creates a '
 # \"                           Creates a "
 # \a                           Creates a ?
-# \b                           Creates a
-# \f
-# \n
+# \b                           Creates backspace
+# \f                           Creates a ?
+# \n                           Creates a new line
 # \N{name}
 # \r
 # \t                           Creates a tab space
@@ -106,3 +106,7 @@ print("This is my test, there are others like it but this one is mine.")
 # \v
 # \ooo                         Doesn't work
 # \xhh                         Doesn't work
+
+while True:
+    for i in ['/', '-', '|', '\\', '|']:
+        print("%s\r" % i, end='')
