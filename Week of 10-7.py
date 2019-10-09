@@ -107,6 +107,11 @@ print("This is my test, there are others like it but this one is mine.")
 # \ooo                         Doesn't work
 # \xhh                         Doesn't work
 
-while True:
-    for i in ['/', '-', '|', '\\', '|']:
-        print("%s\r" % i, end='')
+#while True:
+    #for i in ['/', '-', '|', '\\', '|']:
+        #print("%s\r" % i, end='')
+
+age = input("How old are you?")
+height = input("How tall are you?")
+
+print("So, you are %r tall and %r tall." % (age, height))
